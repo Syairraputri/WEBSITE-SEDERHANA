@@ -1,0 +1,15 @@
+/* Tiga container gambar (gunakan 25% untuk empat dan 50% untuk dua, dll) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
